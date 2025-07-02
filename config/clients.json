@@ -1,0 +1,26 @@
+[
+  {
+    "id": "telegram_bot_1",
+    "platform": "telegram",
+    "token": "123:ABC",
+    "business": "restaurant"
+  },
+  {
+    "id": "telegram_bot_2",
+    "platform": "telegram",
+    "token": "456:XYZ",
+    "business": "barbershop"
+  },
+  {
+    "id": "whatsapp_bot_1",
+    "platform": "whatsapp",
+    "token": "whatsapp-secret",
+    "business": "dentist"
+  },
+  {
+    "id": "Beeeline_Bistro_bot",
+    "platform": "telegram",
+    "token": "7518613607:AAHpMFzb9qDEM9OoWslzvW25KhwD4BOlCF4",
+    "business": "restaurant"
+  }
+]

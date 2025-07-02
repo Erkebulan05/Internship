@@ -1,0 +1,12 @@
+from datetime import datetime
+import os
+
+LOG_PATH = "logs/bookings.log"
+
+def log_booking(guests: int, time: str):
+        os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+
+    booking_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(f"[{booking_time}] Бронирование: {guests} гостей в {time}\n")
